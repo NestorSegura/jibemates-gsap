@@ -27,6 +27,9 @@ function heroInitialLoadingEffect() {
         .from('.parallax__header .heading_h1', {
             y: 50, opacity: 0, duration: 0.6, ease: 'power3.out'
         }, '-=0.4')
+        .from('.parallax__header .w-button', {
+            y: 50, opacity: 0, duration: 0.6, ease: 'power3.out'
+        }, '-=0.4')
         .from('.hero-subtitle', {
             y: 30, opacity: 0, duration: 0.5, ease: 'power3.out'
         }, '-=0.3')
